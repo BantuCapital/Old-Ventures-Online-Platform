@@ -1,0 +1,90 @@
+.cover {
+
+
+  
+  background-color: rgba(2,2,2,0.1);
+
+
+overflow: auto;
+  height: 100vh;
+ 
+}
+.flow{
+  overflow: scroll;
+  background-color: rgba(2,2,2,0.1);
+
+}
+.rate {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+.tasks {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+.reverse {
+  display: flex;
+  right: 120px;
+  overflow: hidden;
+  
+}
+.end {
+  display: flex;
+  overflow:hidden;
+  flex-direction: row;
+   justify-content: flex-end;
+
+}
+.bottom {
+  display: flex;
+  overflow:hidden;
+  flex-direction: column;
+   justify-content: flex-end;
+   height: 55vh;
+
+}
+.p {
+  text-align: right;
+ display: flex;
+ 
+   justify-content: flex-end;
+
+}
+.right: {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-end;;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+}
+.search {
+  width: 37vw;
+  height:2vh;
+  margin-top: 55px;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  right: 70px;
+}
+.badge{
+  display: flex;
+  overflow:hidden;
+  flex-direction: row;
+   justify-content: flex-end;
+   margin-right: 12px;
+
+}
+.main {
+
+overflow: hidden;
+  background-image: url("../images/background.jpg");
+  height: 100vh;
+  align-items: center;
+background-position:50% 30%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

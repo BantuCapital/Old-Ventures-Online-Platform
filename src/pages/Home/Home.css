@@ -1,0 +1,117 @@
+.notificationcontainer {
+  display: grid;
+  grid-auto-flow: row;
+  max-width: 95.5%;
+  min-height: 40%;
+  border-radius: 6px;
+  margin-top: 10px;
+  background: #fff;
+}
+.Deal {
+  display: flex;
+  flex-direction: column;
+  max-width: 80%;
+  min-height: 40%;
+  margin-left: 4vw;
+  border-radius: 6px;
+  margin-top: 10px;
+  background: #fff;
+}
+.notificationlist {
+  display: flex;
+  flex-direction: column;
+  padding: 10 10px;
+  overflow-y: scroll;
+  max-height: 30vh;
+}
+.reverse {
+  display: flex;
+  right: 120px;
+  overflow: hidden;
+}
+.badge {
+  display: flex;
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 12px;
+}
+.search {
+  width: 37vw;
+  height: 2vh;
+  margin-top: 55px;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  right: 70px;
+}
+.notifheader {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  min-height: 64px;
+  max-height: 64px;
+}
+.ventureheader {
+  display: flex;
+  min-height: 70px;
+}
+.ventureboard {
+  display: grid;
+  grid-auto-flow: row;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 4vw;
+  max-width: 93%;
+  max-height: 39vw;
+  border-radius: 6px;
+  width: 93%;
+  min-height: 40vh;
+  background: #fff;
+}
+.headerfont {
+  color: white;
+  font-size: 22px;
+}
+.row {
+  display: grid;
+  grid-gap: 0.4em;
+  margin-left: 4vw;
+  grid-template-columns: repeat(auto-fill, minmax(33.37%, 1fr));
+}
+
+.dealflowheader {
+  height: 6.8vh;
+  display: grid;
+  place-items: center;
+  background-color: #f93800;
+}
+
+.flow {
+  background-color: rgba(2, 2, 2, 0.1);
+  overflow: hidden;
+  height: 100vh;
+}
+.newcol {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-left: 35%;
+  overflow: hidden;
+}
+.broot {
+  position: relative;
+  display: flex;
+  max-width: 98%;
+  margin-top: 10px;
+  flex-direction: column;
+  border-radius: 6px;
+
+  background: #fff;
+
+  min-height: 36vh;
+}
+
+.content {
+  width: 70%;
+  height: 99.7vh;
+}

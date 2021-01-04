@@ -1,0 +1,62 @@
+
+#chat-container {
+  display: grid;
+  grid:
+      'search-container chat-title' 45px 
+      'conversation-list chat-message-list' 1.4fr
+      'new-message-container chat-form' 49px
+      / 275px 1fr;
+  min-width: 800px;
+  max-width: 68vw;
+  max-height: 73vw;
+  margin-left: 7vw;
+  margin-top: 2vh;
+  width: 80vw;
+  height: 74vh;
+  background: #FFF;
+  border-radius: 18px;
+}
+#chat-title{
+   grid-area: chat-title;
+
+}
+#search-container{
+   grid-area: search-container;
+    border-right: 1px solid #F93800;
+
+}
+.coverpage {
+
+
+
+ background-color: rgba(2,2,2,0.1);
+overflow: auto;
+ height: 100vh;
+}
+.badge{
+  display: flex;
+  overflow:hidden;
+  flex-direction: row;
+   justify-content: flex-end;
+   margin-right: 12px;
+
+}
+.search {
+  width: 37vw;
+  height:2vh;
+  margin-top: 55px;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  right: 70px;
+}
+.tasks {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+.reversec {
+  display: flex;
+  right: 120px;
+  overflow: hidden;
+
+}

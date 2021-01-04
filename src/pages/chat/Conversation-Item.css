@@ -1,0 +1,8 @@
+#conversation-list {
+    grid-area: conversation-list;
+      border-right: 1px solid #F93800;
+  border-top: 1px solid #F93800;
+
+    background: #0048AA;
+    overflow-y: scroll;
+}

@@ -1,0 +1,380 @@
+.start {
+
+
+  
+
+
+overflow: auto;
+  height: 100vh;
+    background-color: rgba(2,2,2,0.1);
+ 
+}
+.startcontent {
+
+
+  
+
+
+overflow: auto;
+  height: 100vh;
+ 
+}
+.placesubmit{
+  display: flex;
+  flex-direction: row;
+     justify-content: flex-end;
+
+
+}
+.startflow{
+  overflow: scroll;
+}
+.novid{
+   display: grid;
+   place-items:center;
+   background-color: white;
+   height: 100%;
+}
+.rate {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+.media {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+.videoplayer{
+  width: 100%;
+  min-height: 90%;
+  max-height: 90%;
+
+}
+
+.badge{
+  display: flex;
+  overflow:hidden;
+  flex-direction: row;
+   justify-content: flex-end;
+   margin-right: 12px;
+
+}
+.search {
+  width: 37vw;
+  height:2vh;
+  margin-top: 55px;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  right: 70px;
+}
+.tasks {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+.reversest {
+  display: flex;
+  right: 120px;
+  overflow: hidden;
+  background-color: rgba(2,2,2,0.1);
+
+}
+.arrows{
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+}
+.end {
+  display: flex;
+  overflow:hidden;
+  flex-direction: row;
+   justify-content: flex-end;
+
+}
+.video{
+  grid-area: video;
+ background-color: #000;
+}
+.placethumb{
+  display: flex;
+  flex-direction: column;
+}
+
+.notes{
+  grid-area: notes;
+  display: flex;
+  width:100%;
+  flex-direction: column;
+}
+.notesicon{
+  margin-top: 1vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 2vw;
+}
+.notestext{
+  margin-top: 2vh;
+  margin-left: 2vw;
+
+}
+.rowdown{
+  display: flex;
+  flex-direction: row;
+  font-size: 1.0em;
+  align-content: flex-end;
+
+}
+.thumb{
+  grid-area: thumb;
+  display: grid;
+  overflow-y: auto;
+  grid-auto-flow: row;
+  background-color: white;
+
+}
+.nextheader {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 20px;
+    align-items: flex-end;
+    min-height: 70px;
+   
+  }
+.nextvids {
+    display: flex;
+    flex-direction: column;
+    max-height: 36vh;
+    overflow-y:auto;   
+  }
+.Contentcard{
+    margin-left: 4vw;
+    min-width:66vw;
+    max-width:66vw;
+    display: grid;
+    margin-top: 3vh;
+   grid-template-areas:
+    'video video video video video thumb'
+    'video video video video video thumb '
+    'video video video video video thumb '
+    'video video video video video thumb '
+    'video video video video video notes '
+    'video video video video video notes ';
+    border-radius: 6px;
+    margin-bottom:40;
+    overflow: hidden;
+    height:80vh;
+    background: #FFF;
+
+}
+
+.bottom {
+  display: flex;
+  overflow:hidden;
+  flex-direction: column;
+   justify-content: flex-end;
+   height: 55vh;
+
+}
+.p {
+  text-align: right;
+ display: flex;
+ 
+   justify-content: flex-end;
+
+}
+.right: {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-end;;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+}
+.search {
+  width: 37vw;
+  height:2vh;
+  margin-top: 55px;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  right: 70px;
+}
+.badge{
+  display: flex;
+  overflow:hidden;
+  flex-direction: row;
+   justify-content: flex-end;
+   margin-right: 12px;
+
+}
+.main {
+
+overflow: hidden;
+  background-image: url("../../images/background.png");
+  height: 100vh;
+  align-items: center;
+background-position:50% 30%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nextup{
+   min-width: 25vw;
+   max-width: 25vw;
+}
+
+.media-player {
+  width: 100%;
+  max-width: 100%;
+  height:70vh;
+  video::-webkit-media-controls {
+    display: none !important;
+  }
+}
+
+.media-player-element {
+  max-width: 100%;
+  height: 0;
+  padding-bottom: 56.25%; 
+  position: relative;
+  overflow: hidden;
+  background-color: #d4d4d4;
+
+  video,
+  iframe,
+  object,
+  embed {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+
+.media-controls {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  background-color: #282f31;
+  color: #fff;
+
+  svg,
+  path,
+  polygon {
+    transform-origin: 50% 50%;
+  }
+
+  .media-player--fullscreen & {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 2147483647;
+  }
+}
+
+.media-controls--full {
+  flex-direction: column;
+
+  .media-control-group--seek {
+    width: 100%;
+    margin: 12px 0;
+  }
+}
+
+.media-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.media-control-group {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.media-control-group--seek {
+  flex: 1;
+}
+
+.media-control {
+  margin: 0 12px;
+}
+
+.media-control--progress {
+  -webkit-appearance: none;
+  width: calc(100% - 24px);
+  height: 3px;
+  margin: 0 12px;
+  border: 0;
+  position: absolute;
+  top: 7px;
+  left: 12px;
+
+  background-color: #373d3f;
+  &::-webkit-progress-bar {
+    background-color: #373d3f;
+  }
+
+  color: lighten(#373d3f, 5%); // IE
+  &::-moz-progress-bar {
+    background-color: lighten(#373d3f, 5%);
+  }
+  &::-webkit-progress-value {
+    background-color: lighten(#373d3f, 5%);
+  }
+}
+
+.media-control--seekbar {
+  position: relative;
+  z-index: 5;
+
+  @include -range-track(webkit, moz, ms) {
+    background-color: transparent !important;
+  }
+}
+
+.media-control--volume {
+  max-width: 120px;
+}
+
+.media-control--prev-track {
+  margin-right: 6px;
+}
+
+.media-control--next-track {
+  margin-left: 6px;
+}
+
+
+
+@media only screen and (min-width: 1400px) {
+  [class*=Contentcard]{
+      height: 57vh;
+  }
+    [class*=media-player]{
+      height: 57.5vh;
+  }
+}
+@media only screen and (max-height: 1300px) and (min-height: 1000px)   {
+  [class*=Contentcard]{
+      height: 68vh;
+  }
+    [class*=media-player]{
+      height: 62vh;
+  }
+}
+@media only screen and (max-height: 1000px) and (min-height: 850px)   {
+  [class*=Contentcard]{
+      height: 63.3vh;
+  }
+    [class*=media-player]{
+      height: 62vh;
+  }
+}

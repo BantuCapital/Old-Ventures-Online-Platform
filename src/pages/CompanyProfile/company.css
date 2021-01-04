@@ -1,0 +1,169 @@
+.full {
+  overflow: auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+ 
+}
+.prof {
+
+ background-color: rgba(2,2,2,0.1);
+overflow: auto;
+ height: 100vh;
+ 
+
+ 
+}
+.edit{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    transform: rotate(180deg);
+}
+#description{
+    background:#000;
+    min-height: 120vh;
+    min-width:24vw;
+    display: flex;
+   margin-bottom: 20px;
+
+    overflow-y: auto;
+    flex-direction: column;
+    margin-left: 2vw;
+    border-radius: 6px;
+    background: #FFF;
+    max-width:24vw;
+}
+
+#structure{
+    background:#000;
+     min-height: 120vh;
+    min-width:24vw;
+   margin-bottom: 20px;
+
+    margin-left: 2vw;
+    overflow-y: auto;
+    border-radius: 6px;
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    max-width:24vw;
+}
+.search {
+  width: 37vw;
+  height:2vh;
+  margin-top: 55px;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  right: 70px;
+}
+.badge{
+  display: flex;
+  overflow:hidden;
+  flex-direction: row;
+   justify-content: flex-end;
+   margin-right: 12px;
+
+}
+.reverse {
+  display: flex;
+  right: 120px;
+  overflow: hidden;
+  
+}
+#profile{
+    background:#000;
+    min-height: 120vh;
+   margin-bottom: 20px;
+    min-width:24vw;
+    overflow-y: auto;
+    margin-left: 2vw;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    background: #FFF;
+    max-width:24vw;
+}
+.textsize{
+    font-size: 4px
+}
+.pnn{
+  display: flex;
+  margin-top: 15px;
+  flex-direction: column;
+}
+.vision{
+   min-height:16vh;
+    max-height:16vh; 
+    overflow-y: hidden;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+.entext{
+   min-height:22vh;
+    max-height:23.5vh; 
+    overflow-y: hidden;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+.founder{
+   min-height:16vh;
+    max-height:16vh; 
+    display: flex;
+    flex-direction: row;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+.bio{
+   min-height:14vh;
+    max-height:14vh;
+
+     padding-left: 13px;
+    padding-right: 13px; 
+
+}
+.about{
+   min-height:33vh;
+    max-height:33vh; 
+     padding-left: 13px;
+    padding-right: 13px;
+        overflow-y: auto;
+
+}
+.namephoto{
+   min-height:33vh;
+    max-height:33vh; 
+     display: flex;
+     flex-direction: column;
+     align-items: center; 
+}
+.name{
+    font: Light 41px/58px Open Sans;
+    letter-spacing: 0px;
+    font-size: 20px;
+    height: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.addspace{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+
+}
+@media only screen and (min-width: 1480px) {
+  [class*='bio']{
+      min-height:16.5vh;
+      max-height:16.5vh;
+  }
+}
+@media only screen and (min-height:1100px) {
+  [class*='namephoto']{
+      min-height:20vh;
+      max-height:20vh;
+  }
+  [class*='bio']{
+      min-height:25vh;
+      max-height:25vh;
+  }
+}

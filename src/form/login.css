@@ -1,0 +1,243 @@
+.wraps {
+  height: 100vh;
+
+  width: 100%;
+
+  display: flex;
+  background-color: rgba(2, 2, 2, 0.1);
+
+  background-position: 50% 30%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.resetemail {
+  background-color: #ffffff;
+  position: absolute;
+  top: 44%;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+}
+.errorMessages {
+  color: red;
+  padding-top: 15px;
+  font-size: 0.75em;
+
+  display: relative;
+}
+.roots {
+  position: absolute;
+  right: 10%;
+  width: 30%;
+  bottom: 85px;
+  display: flex;
+  vertical-align: middle;
+  flex-direction: column;
+  height: 59%;
+  padding: 8px 20px;
+  border-radius: 20px;
+  border: 3px solid #f93800;
+  background-color: #ffffff;
+}
+.changeroots {
+  position: absolute;
+  right: 10%;
+  width: 30%;
+  bottom: 85px;
+  display: flex;
+  vertical-align: middle;
+  flex-direction: column;
+  height: 53%;
+  padding: 8px 20px;
+  border-radius: 20px;
+  border: 3px solid #f93800;
+  background-color: #ffffff;
+}
+.resetroots {
+  position: absolute;
+  right: 10%;
+  width: 30%;
+  bottom: 34vh;
+  display: flex;
+  vertical-align: middle;
+  flex-direction: column;
+  height: 36%;
+  padding: 8px 20px;
+  border-radius: 20px;
+  border: 3px solid #f93800;
+  background-color: #ffffff;
+}
+.ventures {
+  position: absolute;
+  top: 24.8%;
+  left: 20px;
+  font-size: 8.25em;
+  font: Bariol;
+  letter-spacing: 0px;
+  color: #707070;
+  opacity: 1;
+  font-stretch: expanded;
+}
+.placeincol {
+  display: flex;
+  background-color: #ffffff;
+  position: absolute;
+  flex-direction: column;
+  width: 90%;
+  top: 24.5%;
+}
+.placeCon {
+  display: flex;
+  background-color: #ffffff;
+  position: absolute;
+  flex-direction: column;
+  width: 90%;
+  top: 50.5%;
+}
+.code {
+  display: flex;
+  background-color: #ffffff;
+  position: absolute;
+  flex-direction: column;
+  width: 90%;
+}
+.email {
+  display: flex;
+  background-color: #ffffff;
+  position: absolute;
+  flex-direction: column;
+  width: 95%;
+  top: 61%;
+}
+.loginpassword {
+  background-color: #ffffff;
+  position: absolute;
+  display: flex;
+  width: 85%;
+  flex-direction: column;
+  top: 43%;
+}
+.forgotPass {
+  position: absolute;
+  top: 82%;
+  align-self: center;
+}
+
+.log {
+  align-self: flex-end;
+}
+.log button {
+  width: 97px;
+  height: 33px;
+  position: absolute;
+  top: 74%;
+  right: 33px;
+  border-radius: 10px;
+}
+.change {
+  align-self: flex-end;
+}
+.change button {
+  width: 97px;
+  height: 33px;
+  position: absolute;
+  top: 77%;
+  right: 33px;
+  border-radius: 10px;
+}
+.errorMessage {
+  color: red;
+
+  font-size: 0.75em;
+
+  display: relative;
+}
+.logintext {
+  width: 104px;
+  height: 100px;
+  position: absolute;
+  right: 44%;
+  font-weight: lighter;
+  top: 15px;
+  font-size: 34px;
+  font: Regular Bariol;
+  letter-spacing: 0px;
+  color: #707070;
+  opacity: 1;
+}
+
+.log button:hover {
+  color: #f93800;
+
+  background-color: #fff;
+
+  border: 2px solid #f93800;
+}
+.change button:hover {
+  color: #f93800;
+
+  background-color: #fff;
+
+  border: 2px solid #f93800;
+}
+.loginemail {
+  background-color: #ffffff;
+  position: absolute;
+  top: 25%;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+}
+.image {
+  align-self: center;
+  position: absolute;
+  top: 10px;
+  width: 31px;
+  height: 34px;
+}
+.logo {
+  position: absolute;
+  top: 10px;
+  left: -42px;
+  width: 220px;
+  /* height: 148px; */
+}
+@media only screen and (min-height: 1300px) {
+  [class*="roots"] {
+    height: 40%;
+    padding: 8px 10px;
+    top: 330px;
+  }
+  ,
+  [class*="changeroots"] {
+    height: 30%;
+    padding: 8px 10px;
+    top: 330px;
+  }
+  [class*="resetroots"] {
+    height: 12%;
+    padding: 8px 10px;
+    top: 330px;
+  }
+}
+@media only screen and (min-height: 1000px) {
+  [class*="roots"] {
+    height: 40%;
+    padding: 8px 10px;
+    top: 330px;
+  }
+  [class*="changeroots"] {
+    height: 35%;
+    padding: 8px 10px;
+    top: 330px;
+  }
+  [class*="resetroots"] {
+    height: 25%;
+    padding: 8px 10px;
+    top: 330px;
+  }
+}
+.atterisk{
+  display: flex;
+  flex-direction: row;
+}

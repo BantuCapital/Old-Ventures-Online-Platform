@@ -1,0 +1,58 @@
+
+.detailscard{
+    min-width:100vw;
+    max-width:100vw;
+    display: grid;
+   grid-template-areas:
+    'details addEnt addEnt'
+    'details entrepreneurs entrepreneurs';
+    margin-bottom:40;
+    overflow: auto;
+    height:all;
+  background-color: rgba(2, 2, 2, 0.1);
+     
+}
+.detail { grid-area: details; }
+.addEnt { grid-area: addEnt; }
+.entrepreneurs { grid-area: entrepreneurs; }
+.forgot {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.founders {
+  display: flex;
+  padding-left:2vh; 
+  padding-right:4vh; 
+  flex-direction: row;
+  overflow: hidden;
+}
+.padding{
+	display: flex;
+	flex-direction: column;
+	padding-left: 2vh;
+	padding-right: 2vh;
+}
+.paddinglist{
+	display: flex;
+	flex-direction: column;
+	padding-top: 14px;
+	padding-left: 2vh;
+	padding-right: 2vh;
+}
+.paddingRole{
+	display: flex;
+	flex-direction: column;
+	padding-left: 2vh;
+	padding-right: 4vh;
+}
+.detcover {
+
+  background-image: url("../images/background.jpg");
+  height: 100vh;
+  align-items: center;
+background-position:50% 30%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
